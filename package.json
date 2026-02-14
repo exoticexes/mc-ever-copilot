@@ -1,1 +1,20 @@
-{\n  "name": "mc-ever-copilot",\n  "version": "1.0.0",\n  "description": "Minecraft AFK Bot - Sadece zıplayan bot",\n  "main": "bot.js",\n  "scripts": {\n    "start": "node bot.js",\n    "dev": "nodemon bot.js"\n  },\n  "keywords": ["minecraft", "bot", "afk"],\n  "author": "exoticexes",\n  "license": "MIT",\n  "dependencies": {\n    "mineflayer": "^4.12.0",\n    "dotenv": "^16.3.1"\n  },\n  "devDependencies": {\n    "nodemon": "^3.0.1"\n  }\n}
+{
+  "name": "mc-ever-copilot",
+  "version": "1.0.0",
+  "description": "Minecraft AFK Bot - Sadece zıplayan bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["minecraft", "bot", "afk"],
+  "author": "exoticexes",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^4.12.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

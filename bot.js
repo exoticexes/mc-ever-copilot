@@ -5,7 +5,7 @@ const config = {
   host: 'play.everyones.run.place',
   port: 24107,
   username: 'ExEB0t',
-  version: '1.21.1'
+  version: '1.21.11'
 };
 
 const bot = mineflayer.createBot(config);

@@ -7,12 +7,16 @@
     "start": "node bot.js",
     "dev": "nodemon bot.js"
   },
-  "keywords": ["minecraft", "bot", "afk"],
+  "keywords": [
+    "minecraft",
+    "bot",
+    "afk"
+  ],
   "author": "exoticexes",
   "license": "MIT",
   "dependencies": {
-    "mineflayer": "^4.12.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "mineflayer": "^4.37.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"

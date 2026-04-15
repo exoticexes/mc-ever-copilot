@@ -1,8 +1,8 @@
 module.exports = {
   server: {
-    host: process.env.HOST || 'play.everyones.run.place',
-    port: parseInt(process.env.PORT) || 24107,
-    version: process.env.VERSION || '1.21.11'
+    host: process.env.HOST || 'dplus.falix.gg',
+    port: parseInt(process.env.PORT) || 28014,
+    version: process.env.VERSION || false
   },
   bot: {
     username: process.env.BOT_NAME || 'ExEB0t',

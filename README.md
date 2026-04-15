@@ -39,17 +39,18 @@ npm start
 `.env` dosyasında ayarları düzenleyebilirsiniz:
 
 ```env
-HOST=play.everyones.run.place
-PORT=24107
+HOST=dplus.falix.gg
+PORT=28014
 BOT_NAME=ExEB0t
-VERSION=1.21.1
+# VERSION otomatik algılanır, boş bırakın veya Java Edition sürümü yazın
+# VERSION=
 JUMP_INTERVAL=10000
 ```
 
 - `HOST`: Sunucu IP adresi
 - `PORT`: Sunucu portu
 - `BOT_NAME`: Bot kullanıcı adı
-- `VERSION`: Minecraft sürümü
+- `VERSION`: Minecraft sürümü (boş bırakılırsa sunucudan otomatik algılanır)
 - `JUMP_INTERVAL`: Zıplama aralığı (milisaniye)
 
 ## 📝 Kullanım

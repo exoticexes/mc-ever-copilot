@@ -5,9 +5,12 @@ const { server, bot: botConfig } = require('./config');
 const config = {
   host: server.host,
   port: server.port,
-  username: botConfig.username,
-  version: server.version
+  username: botConfig.username
 };
+
+if (server.version) {
+  config.version = server.version;
+}
 
 const bot = mineflayer.createBot(config);
 

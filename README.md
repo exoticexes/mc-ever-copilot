@@ -39,10 +39,10 @@ npm start
 `.env` dosyasında ayarları düzenleyebilirsiniz:
 
 ```env
-HOST=play.everyones.run.place
-PORT=24107
+HOST=dplus.falix.gg
+PORT=28014
 BOT_NAME=ExEB0t
-VERSION=1.21.11
+VERSION=1.26.13.1
 JUMP_INTERVAL=10000
 ```
 

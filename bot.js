@@ -2,10 +2,10 @@ const mineflayer = require('mineflayer');
 require('dotenv').config();
 
 const config = {
-  host: 'play.everyones.run.place',
-  port: 24107,
+  host: 'dplus.falix.gg',
+  port: 28014,
   username: 'ExEB0t',
-  version: '1.21.11'
+  version: '1.26.13.1'
 };
 
 const bot = mineflayer.createBot(config);

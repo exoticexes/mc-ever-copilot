@@ -42,7 +42,7 @@ npm start
 HOST=play.everyones.run.place
 PORT=24107
 BOT_NAME=ExEB0t
-VERSION=1.21.1
+VERSION=1.21.11
 JUMP_INTERVAL=10000
 ```
 

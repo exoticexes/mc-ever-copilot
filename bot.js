@@ -1,11 +1,12 @@
 const mineflayer = require('mineflayer');
 require('dotenv').config();
+const { server, bot: botConfig } = require('./config');
 
 const config = {
-  host: 'dplus.falix.gg',
-  port: 28014,
-  username: 'ExEB0t',
-  version: '1.26.13.1'
+  host: server.host,
+  port: server.port,
+  username: botConfig.username,
+  version: server.version
 };
 
 const bot = mineflayer.createBot(config);
@@ -27,7 +28,7 @@ bot.on('spawn', () => {
     
     const now = new Date().toLocaleTimeString('tr-TR');
     console.log(`[${now}] ⬆️ Zıpladı!`);
-  }, 10000);
+  }, botConfig.jumpInterval);
 });
 
 bot.on('error', (err) => {
